@@ -505,6 +505,13 @@ header {
 	margin: 20px 20px;
 }
 
+@media(max-width: 500px) {
+	.services-header-img {
+	width: 420px;
+	height: 150px;
+	}
+}
+
 .services__text {
 	margin: 20px 20px;
 }
@@ -590,8 +597,15 @@ header {
 
 @media(max-width: 800px) {
 	.services-info-img {
-		width: 350px;
+		width: 400px;
 		height: 250px;
 		margin: 10px 2px;
+	}
+}
+
+@media(max-width:500px) {
+	.services-info-img {
+		width: 400px;
+		height: 250px;
 	}
 }
