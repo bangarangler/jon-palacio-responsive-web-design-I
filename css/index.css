@@ -516,6 +516,11 @@ header {
 	margin: 20px 20px;
 }
 
+@media(max-width: 500px) {
+	.card__section {
+		flex-direction: column;
+	}
+}
 
 .card__section--vertical {
 	display: flex;
@@ -541,6 +546,12 @@ header {
 	justify-content: space-evenly;
 	align-items: center;
 }
+@media(max-width: 800px) {
+	.services--footer__container {
+		flex-direction: column-reverse;
+	}
+
+}
 
 .footer__content {
 	display: flex;
@@ -549,6 +560,13 @@ header {
 	align-items: flex-start;
 	padding: 20px;
 	margin: 10px 20px;
+}
+
+@media(max-width: 800px) {
+	.footer__content {
+		margin: 2px 2px;
+		padding: 10px;
+	}
 }
 
 .footer__content ul {
@@ -568,5 +586,12 @@ header {
 .services-info-img {
 	margin: 30px;
 	padding: 5px;
+}
 
+@media(max-width: 800px) {
+	.services-info-img {
+		width: 350px;
+		height: 250px;
+		margin: 10px 2px;
+	}
 }
